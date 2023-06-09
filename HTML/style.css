@@ -39,6 +39,10 @@
     color: white;
 }
 
+.title-banner:hover{
+    font-size: 50px;
+}
+
 .menu-footer div:first-child{
     padding-left: 10px
 }
