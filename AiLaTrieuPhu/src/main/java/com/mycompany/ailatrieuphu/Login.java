@@ -119,6 +119,9 @@ public class Login extends javax.swing.JFrame {
         if(nguoiDung != null){
             /// Login thành công
             JOptionPane.showMessageDialog(null, "Hello bạn " + nguoiDung.getHoTen());
+            dispose();
+            
+            new Level().setVisible(true);
         }
         else{
             // Login ko thành công
@@ -129,6 +132,7 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        
         new Register().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
